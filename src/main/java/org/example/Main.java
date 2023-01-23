@@ -1,8 +1,12 @@
 package org.example;
 
+import gameWinnerWendyorBob.gameWinner;
+
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println("Hello world!");
+        String output=gameWinner.result("wwwbbbbwww");
+        System.out.println(output);
     }
+
 }
