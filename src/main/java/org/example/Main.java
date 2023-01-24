@@ -1,12 +1,14 @@
 package org.example;
 
-import gameWinnerWendyorBob.gameWinner;
+import java.math.BigInteger;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class Main {
+
     public static void main(String[] args) {
 
-        String output=gameWinner.result("wwwbbbbwww");
-        System.out.println(output);
+
     }
 
 }
